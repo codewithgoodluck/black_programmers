@@ -240,7 +240,7 @@ const Form = () => {
               sx={{
                 m: "2rem 0",
                 p: "1rem",
-                backgroundColor: palette.primary.main,
+                backgroundColor:"black",
                 color: palette.background.alt,
                 "&:hover": { color: palette.primary.main },
               }}
@@ -254,7 +254,7 @@ const Form = () => {
               }}
               sx={{
                 textDecoration: "underline",
-                color: palette.primary.main,
+               
                 "&:hover": {
                   cursor: "pointer",
                   color: palette.primary.light,
